@@ -16,7 +16,7 @@ public class KimEunJi {
 	String name = scn.nextLine();
 	
 	int num3 = num2*num2;
-	double bmi = num1/num3;
+	double bmi = (int)num1/num3;
 	
 	System.out.printf("%s님의 BMI지수는 %d입니다", name,bmi);
 	
