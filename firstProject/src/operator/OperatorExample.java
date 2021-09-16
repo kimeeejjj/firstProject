@@ -4,7 +4,7 @@ public class OperatorExample {
 	public static void main(String[] args) {
 		// +, -, *, /, %(나눈 후 나머지), | 논리적인 값 처리(비트연산자) : &(and논리곱), |(or논리합), ^(두수값다르면1,같으면0), ~(not의 값)
 		int num1, num2, result;
-		num1 = 10;
+		num1 = 5;
 		num2 = 5;
 		
 		//result = num2 = num1;

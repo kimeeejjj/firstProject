@@ -13,11 +13,11 @@ public class StringExample {
 // name = 20;     -> 마찬가지
  		System.out.println(name + "의 나이는" + age);
  		
- 		int age =25;
- 		String name = "김은지";
+ 		age =25;
+ 		name = "김은지";
  		System.out.println(name + "의 나이는" + age + "입니다.");
  		
- 		System.out.println("김은지의 나이는" + 25 + "입니다.");
+ 		System.out.printf("%s의 나이는 %d세 입니다.",name,age);
  		
 	}
 }

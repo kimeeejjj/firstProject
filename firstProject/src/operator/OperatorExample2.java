@@ -24,9 +24,10 @@ public class OperatorExample2 {
 		
 		//3항 연산자
 		int score = 80;
-		boolean pass = (score > 60) ? true : false; //괄호 안 값이 참이냐 거짓이냐? 만족하면 true, 아니면 false
+		boolean pass = (score > 60) ? false : true;//괄호 안 값이 참이냐 거짓이냐? 만족하면 true, 아니면 false
+		System.out.println(pass);
 		String isOk = (score > 60) ? "Pass" : "Fail"; //T,F아니고 문자열 출력도 가능
-			
+			System.out.println(isOk);
 				
 		
 }
