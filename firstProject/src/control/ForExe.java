@@ -9,11 +9,10 @@ public class ForExe {
 
 		//1~10 중에서 2,4,6,8,10
 		//끝2
-		int num = 0;
-		for(int i=2; i<=10; i=i+2) {
-		 num = num + i;
+		int sum =0;
+		for(int i=2; i<=10; i+=2) {
+		 sum+=i;
 		 System.out.println(sum);
-		 num = 0; 
 		}
 		System.out.println("끝2");
 		//1~10 중에서 1,3,5,7,9

@@ -10,7 +10,7 @@ public class MathodExample5 {
 		
 		for(int i=0; i<scores.length; i++)
 			if(true) {
-				minval 
+				minval; 
 			}
 	}
 
@@ -20,6 +20,6 @@ public class MathodExample5 {
 		boolean isTrue = false;
 		
 		for(int i=0; i<ary.length; i++)
-			isTrue 
+			isTrue; 
 	}
 }

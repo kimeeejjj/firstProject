@@ -41,7 +41,7 @@ public class ArrayExample2 {
 		sum=0;
 		for(int i=0; i<scores.length; i++) {
 			if(scores[i]%2==0) {
-				sum = scores[i]
+				sum = scores[i];
 			}
 		}
 		System.out.println(sum);
