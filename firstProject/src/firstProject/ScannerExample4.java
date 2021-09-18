@@ -5,10 +5,10 @@ public class ScannerExample4 {
 		int num1 = 100;
 		String num2 = "100";
 		
-		int num2Int = Integer.parseInt(num2); //int -> Integer : 정수처리
+		int num2Int = Integer.parseInt(num2); //String -> Integer : 정수처리
 
 		String num3 = "12.25";
-		double num3Double = Double.parseDouble(num3);
+		double num3Double = Double.parseDouble(num3); // Stirng -> double
 		
 		int result = num1 + num2Int;
 		
@@ -20,7 +20,7 @@ public class ScannerExample4 {
 		if(age.equals("")) {
 			age = "0";
 		}
-		int ageInt = Integer.parseInt(age);
+		int ageInt = Integer.parseInt(age); //Stirng타입 age -> int타입으로
 		System.out.println("연락처를 입력>>> ");
 		String phone = scn.nextLine();
 		
